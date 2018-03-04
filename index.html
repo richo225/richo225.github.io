@@ -233,10 +233,10 @@
 
          <ul class="skills">
            <li><span class="bar-expand bar-90"></span><em>Ruby on Rails</em></li>
-           <li><span class="bar-expand bar-70"></span><em>HTML5</em></li>
-           <li><span class="bar-expand bar-70"></span><em>CSS3</em></li>
-           <li><span class="bar-expand bar-40"></span><em>Javascript</em></li>
-           <li><span class="bar-expand bar-40"></span><em>NativeScript / Angular 2</em></li>
+           <li><span class="bar-expand bar-50"></span><em>Javascript</em></li>
+           <li><span class="bar-expand bar-50"></span><em>NativeScript / Angular 2</em></li>
+           <li><span class="bar-expand bar-40"></span><em>Java / Spring boot</em></li>
+           <li><span class="bar-expand bar-40"></span><em>Elixir</em></li>
         </ul>
 
         </div><!-- end skill-bars -->
@@ -262,9 +262,25 @@
             <div id="portfolio-wrapper" class="bgrid-thirds cf">
 
               <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                  <a href="#modal-01" title="">
+                    <img alt="" src="images/portfolio/hodlmoon.jpg">
+                    <div class="overlay">
+                      <div class="portfolio-item-meta">
+                        <h5>Hodlmoon</h5>
+                        <p>Cryptocurrency CLI</p>
+                      </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                  </a>
+                </div>
+              </div> <!-- item end -->
+              
+              <div class="columns portfolio-item">
                  <div class="item-wrap">
 
-                    <a href="#modal-01" title="">
+                    <a href="#modal-02" title="">
                       <img alt="" src="images/portfolio/makeitstop_1.jpg">
                       <div class="overlay">
                         <div class="portfolio-item-meta">
@@ -277,37 +293,23 @@
                  </div>
               </div> <!-- item end -->
 
-              <div class="columns portfolio-item">
-                 <div class="item-wrap">
-
-                    <a href="#modal-02" title="">
-                      <img alt="" src="images/portfolio/richagram_1.jpg">
-                      <div class="overlay">
-                        <div class="portfolio-item-meta">
-                          <h5>Richagram</h5>
-                          <p>Instagram clone</p>
-                        </div>
-                      </div>
-                      <div class="link-icon"><i class="icon-plus"></i></div>
-                    </a>
-                 </div>
-              </div> <!-- item end -->
 
               <div class="columns portfolio-item">
-                 <div class="item-wrap">
+                <div class="item-wrap">
 
-                    <a href="#modal-03" title="">
-                      <img alt="" src="images/portfolio/stockr_1.jpg">
-                      <div class="overlay">
-                        <div class="portfolio-item-meta">
-                          <h5>Stockr</h5>
-                          <p>Whole-seller app for stock updates</p>
-                        </div>
+                  <a href="#modal-03" title="">
+                    <img alt="" src="images/portfolio/robot_1.jpg">
+                    <div class="overlay">
+                      <div class="portfolio-item-meta">
+                        <h5>Bluetooth</h5>
+                        <p>NativeScript app for MiP robot</p>
                       </div>
-                      <div class="link-icon"><i class="icon-plus"></i></div>
-                    </a>
-                 </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                  </a>
+                </div>
               </div> <!-- item end -->
+
 
               <div class="columns portfolio-item">
                  <div class="item-wrap">
@@ -326,19 +328,19 @@
               </div> <!-- item end -->
 
               <div class="columns portfolio-item">
-                 <div class="item-wrap">
+                <div class="item-wrap">
 
-                    <a href="#modal-05" title="">
-                      <img alt="" src="images/portfolio/robot_1.jpg">
-                      <div class="overlay">
-                        <div class="portfolio-item-meta">
-                          <h5>Bluetooth</h5>
-                          <p>NativeScript app for MiP robot</p>
-                        </div>
+                  <a href="#modal-04" title="">
+                    <img alt="" src="images/portfolio/richagram_1.jpg">
+                    <div class="overlay">
+                      <div class="portfolio-item-meta">
+                        <h5>Richagram</h5>
+                        <p>Instagram clone</p>
                       </div>
-                      <div class="link-icon"><i class="icon-plus"></i></div>
-                    </a>
-                 </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                  </a>
+                </div>
               </div> <!-- item end -->
 
               <div class="columns portfolio-item">
@@ -365,7 +367,27 @@
          <!-- Modal Popup
         --------------------------------------------------------------- -->
 
-         <div id="modal-01" class="popup-modal mfp-hide">
+        <div id="modal-01" class="popup-modal mfp-hide">
+
+          <img class="scale-with-grid" src="images/portfolio/modals/hodlmoon.png" alt="" />
+
+          <div class="description-box">
+            <h4>Hodlmoon</h4>
+            <p>A CLI to find the price of your crypto portfolio from the comfort of your command line. Built with Ruby
+              and utilises the coinmarketcap API. When moon?
+            </p>
+            <span class="categories"><i class="fa fa-tag"></i>Ruby, Thor, Terminal-table, Aruba</span>
+          </div>
+
+          <div class="link-box">
+            <a href="https://samed-stockr.herokuapp.com" target="_blank">RubyGems</a>
+            <a href="https://github.com/richo225/hodlmoon" target="_blank">Github</a>
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+        </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
 
            <img class="scale-with-grid" src="images/portfolio/modals/makeitstop_1.jpg" alt="" />
 
@@ -383,7 +405,7 @@
              <a class="popup-modal-dismiss">Close</a>
            </div>
 
-        </div><!-- modal-01 End -->
+        </div><!-- modal-02 End -->
 
         <div id="modal-02" class="popup-modal mfp-hide">
 
@@ -405,25 +427,6 @@
 
         </div><!-- modal-02 End -->
 
-        <div id="modal-03" class="popup-modal mfp-hide">
-
-          <img class="scale-with-grid" src="images/portfolio/modals/stockr_1.jpg" alt="" />
-
-          <div class="description-box">
-            <h4>Stockr</h4>
-            <p>A Ruby on Rails application that allows a food wholeseller to update their current stock and
-              easily send their customers an updated list via e-mail.
-            </p>
-            <span class="categories"><i class="fa fa-tag"></i>Ruby on Rails, HTML, CSS, Rspec, Capybara</span>
-          </div>
-
-          <div class="link-box">
-            <a href="https://samed-stockr.herokuapp.com" target="_blank">Heroku</a>
-            <a href="https://github.com/richo225/stockr" target="_blank">Github</a>
-            <a class="popup-modal-dismiss">Close</a>
-          </div>
-
-        </div><!-- modal-03 End -->
 
         <div id="modal-04" class="popup-modal mfp-hide">
 
