@@ -325,6 +325,12 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.bar-30 {
+  width: 30%;
+  -moz-animation: bar-30 2s ease;
+  -webkit-animation: bar-30 2s ease;
+}
+
 .bar-40 {
   width: 40%;
   -moz-animation: bar-40 2s ease;
